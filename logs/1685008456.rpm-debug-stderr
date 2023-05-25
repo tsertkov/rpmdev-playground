@@ -1,0 +1,144 @@
+D: ============== /home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm
+D: loading keyring from pubkeys in /var/lib/rpm/pubkeys/*.key
+D: couldn't find any keys in /var/lib/rpm/pubkeys/*.key
+D: loading keyring from rpmdb
+D: opening  db environment /var/lib/rpm cdb:0x401
+D: opening  db index       /var/lib/rpm/Packages 0x400 mode=0x0
+D: locked   db index       /var/lib/rpm/Packages
+D: opening  db index       /var/lib/rpm/Name 0x400 mode=0x0
+D:  read h#     357 
+Header SHA1 digest: OK
+D: added key gpg-pubkey-8483c65d-5ccc5b19 to keyring
+D:  read h#     359 
+Header SHA1 digest: OK
+D: added key gpg-pubkey-2f86d6a1-5cf7cefb to keyring
+D: Using legacy gpg-pubkey(s) from rpmdb
+D: /home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm: Header SHA256 digest: OK
+D: /home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm: Header SHA1 digest: OK
+ufdio:       6 reads,     6692 total bytes in 0.000007 secs
+D: Plugin: calling hook init in systemd_inhibit plugin
+D: 	added binary package [0]
+D: found 0 source and 1 binary packages
+D: opening  db index       /var/lib/rpm/Conflictname 0x400 mode=0x0
+D: opening  db index       /var/lib/rpm/Requirename 0x400 mode=0x0
+D: ========== +++ my-world-1-1 x86_64/linux 0x0
+D: opening  db index       /var/lib/rpm/Basenames 0x400 mode=0x0
+D:  read h#      29 
+Header V3 RSA/SHA256 Signature, key ID 8483c65d: OK
+Header SHA256 digest: OK
+Header SHA1 digest: OK
+D:  Requires: /bin/sh                                       YES (db files)
+D:  Requires: /bin/sh                                       YES (cached)
+D:  Requires: /usr/bin/bash                                 YES (db files)
+D:  Requires: rpmlib(CompressedFileNames) <= 3.0.4-1        YES (rpmlib provides)
+D:  Requires: rpmlib(FileDigests) <= 4.6.0-1                YES (rpmlib provides)
+D:  Requires: rpmlib(PayloadFilesHavePrefix) <= 4.0-1       YES (rpmlib provides)
+D:  Requires: rpmlib(PayloadIsXz) <= 5.2-1                  YES (rpmlib provides)
+D: opening  db index       /var/lib/rpm/Obsoletename 0x400 mode=0x0
+D: ========== recording tsort relations
+D: ========== tsorting packages (order, #predecessors, #succesors, depth)
+D:     0    0    0    1   +my-world-1-1.x86_64
+D: installing binary packages
+D: closed   db index       /var/lib/rpm/Packages
+D: closed   db index       /var/lib/rpm/Obsoletename
+D: closed   db index       /var/lib/rpm/Conflictname
+D: closed   db index       /var/lib/rpm/Requirename
+D: closed   db index       /var/lib/rpm/Basenames
+D: closed   db index       /var/lib/rpm/Name
+D: closed   db environment /var/lib/rpm
+D: opening  db environment /var/lib/rpm cdb:0x401
+D: opening  db index       /var/lib/rpm/Packages (none) mode=0x42
+D: sanity checking 1 elements
+D: opening  db index       /var/lib/rpm/Name (none) mode=0x42
+ufdio:       8 reads,     6892 total bytes in 0.000006 secs
+D: Plugin: calling hook tsm_pre in selinux plugin
+D: selabel_open: (/etc/selinux/targeted/contexts/files/file_contexts) 
+D: Plugin: calling hook tsm_pre in systemd_inhibit plugin
+D: System shutdown blocked (fd 17)
+D: running pre-transaction scripts
+D: computing 1 file fingerprints
+D: opening  db index       /var/lib/rpm/Basenames (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Group (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Requirename (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Providename (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Conflictname (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Obsoletename (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Triggername (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Dirnames (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Installtid (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Sigmd5 (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Sha1header (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Filetriggername (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Transfiletriggername (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Recommendname (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Suggestname (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Supplementname (none) mode=0x42
+D: opening  db index       /var/lib/rpm/Enhancename (none) mode=0x42
+D: computing file dispositions
+D: 0x0000fd00     4096     32033713     65437178 /
+D: ========== +++ my-world-1-1 x86_64-linux 0x0
+D: my-world-1-1.x86_64: Header SHA256 digest: OK
+D: my-world-1-1.x86_64: Header SHA1 digest: OK
+D:   install: my-world-1-1.x86_64 has 1 files
+D: Plugin: calling hook psm_pre in selinux plugin
+D: %prein(my-world-1-1.x86_64): scriptlet start
+fdio:       2 writes,       43 total bytes in 0.000008 secs
+D: %prein(my-world-1-1.x86_64): execv(/bin/sh) pid 5356
+D: Plugin: calling hook scriptlet_fork_post in selinux plugin
+D: setexecfilecon: (/bin/sh, rpm_script_t) 
++ echo 'Hello from %pre scriptlet: /var/tmp/rpm-tmp.0F6DA8'
+D: %prein(my-world-1-1.x86_64): waitpid(5356) rc 5356 status 0
+D: ========== Directories not explicitly included in package:
+D:          0 /usr/bin/
+D: ==========
+D: create     100755  1 (   0,   0)    33 /usr/bin/my-world.sh;646f3048
+ufdio:       1 writes,       33 total bytes in 0.000005 secs
+D: Plugin: calling hook fsm_file_prepare in selinux plugin
+D: lsetfilecon: (/usr/bin/my-world.sh;646f3048, system_u:object_r:bin_t:s0) 
+fdio:       9 reads,      292 total bytes in 0.000048 secs
+D: adding "my-world" to Name index.
+D: adding 1 entries to Basenames index.
+D: adding "Unspecified" to Group index.
+D: adding 7 entries to Requirename index.
+D: adding 2 entries to Providename index.
+D: adding 1 entries to Dirnames index.
+D: adding 1 entries to Installtid index.
+D: adding 1 entries to Sigmd5 index.
+D: adding "f2480dca13d1d2ea0a8af89bb89d4d3305303171" to Sha1header index.
+D: %post(my-world-1-1.x86_64): scriptlet start
+fdio:       2 writes,       44 total bytes in 0.000006 secs
+D: %post(my-world-1-1.x86_64): execv(/bin/sh) pid 5357
+D: Plugin: calling hook scriptlet_fork_post in selinux plugin
+D: setexecfilecon: (/bin/sh, rpm_script_t) 
++ echo 'Hello from %post scriptlet: /var/tmp/rpm-tmp.RVYqR7'
+D: %post(my-world-1-1.x86_64): waitpid(5357) rc 5357 status 0
+ufdio:       6 reads,     6692 total bytes in 0.000004 secs
+D: running post-transaction scripts
+D:  read h#     514 
+Header SHA256 digest: OK
+Header SHA1 digest: OK
+D: Plugin: calling hook psm_pre in selinux plugin
+D: Plugin: calling hook tsm_post in selinux plugin
+D: Plugin: calling hook tsm_post in systemd_inhibit plugin
+D: System shutdown unblocked
+D: closed   db index       /var/lib/rpm/Packages
+D: closed   db index       /var/lib/rpm/Enhancename
+D: closed   db index       /var/lib/rpm/Supplementname
+D: closed   db index       /var/lib/rpm/Suggestname
+D: closed   db index       /var/lib/rpm/Recommendname
+D: closed   db index       /var/lib/rpm/Transfiletriggername
+D: closed   db index       /var/lib/rpm/Filetriggername
+D: closed   db index       /var/lib/rpm/Sha1header
+D: closed   db index       /var/lib/rpm/Sigmd5
+D: closed   db index       /var/lib/rpm/Installtid
+D: closed   db index       /var/lib/rpm/Dirnames
+D: closed   db index       /var/lib/rpm/Triggername
+D: closed   db index       /var/lib/rpm/Obsoletename
+D: closed   db index       /var/lib/rpm/Conflictname
+D: closed   db index       /var/lib/rpm/Providename
+D: closed   db index       /var/lib/rpm/Requirename
+D: closed   db index       /var/lib/rpm/Group
+D: closed   db index       /var/lib/rpm/Basenames
+D: closed   db index       /var/lib/rpm/Name
+D: closed   db environment /var/lib/rpm
+D: Exit status: 0

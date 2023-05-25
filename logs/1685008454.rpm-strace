@@ -1,0 +1,565 @@
+5342  execve("/bin/rpm", ["rpm", "-i", "/home/vagrant/rpmbuild/RPMS/x86_"...], 0x7ffe3003a7f8 /* 15 vars */) = 0
+5342  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/librpm.so.8", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/librpmio.so.8", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libdb-5.3.so", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libelf.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libzstd.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/liblua-5.3.so", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libpopt.so.0", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libcrypto.so.1.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libaudit.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libcap-ng.so.0", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/proc/sys/kernel/cap_last_cap", O_RDONLY) = 3
+5342  openat(AT_FDCWD, "/proc/sys/crypto/fips_enabled", O_RDONLY) = 3
+5342  access("/etc/system-fips", F_OK)  = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/usr/lib/rpm/rpmpopt-4.14.3", O_RDONLY) = 3
+5342  openat(AT_FDCWD, "/etc/popt", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  stat("/etc/popt.d", {st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+5342  openat(AT_FDCWD, "/etc/popt.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+5342  openat(AT_FDCWD, "/root/.popt", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/lib64/libnss_sss.so.2", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/var/lib/sss/mc/passwd", O_RDONLY|O_CLOEXEC) = 3
+5342  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+5342  openat(AT_FDCWD, "/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 5
+5342  openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 5
+5342  openat(AT_FDCWD, "/var/lib/sss/mc/group", O_RDONLY|O_CLOEXEC) = 5
+5342  openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 6
+5342  stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=139, ...}) = 0
+5342  openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/etc/rpm/platform", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  stat("/root/.rpmrc", 0x7ffcdb8f0e50) = -1 ENOENT (No such file or directory)
+5342  access("/usr/lib/rpm/rpmrc", R_OK) = 0
+5342  openat(AT_FDCWD, "/usr/lib/rpm/rpmrc", O_RDONLY) = 6
+5342  access("/usr/lib/rpm/redhat/rpmrc", R_OK) = 0
+5342  openat(AT_FDCWD, "/usr/lib/rpm/redhat/rpmrc", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/rpmrc", O_RDONLY) = 6
+5342  access("/etc/rpmrc", R_OK)        = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.cmake", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.dwz", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.efi-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.fedora-misc", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.fedora-misc-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.firewalld", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.forge", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.ghc-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.go-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.info", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.kernel-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.ldc-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.ldconfig", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.mono-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.nodejs-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.ocaml-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.openblas-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.perl", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.perl-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.pybytecompile", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.python", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.python-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.python3", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.rust-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.selinux-policy", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.systemd", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.valgrind-srpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.vim", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/macros.d/macros.vpath", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/platform/x86_64-linux/macros", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/cmake.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/debuginfo.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/desktop.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/elf.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/font.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/kabi.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/kmod.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/libsymlink.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/libtool.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/metainfo.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/mono.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/ocaml.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/pkgconfig.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/fileattrs/script.attr", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/usr/lib/rpm/redhat/macros", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/etc/rpm", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+5342  openat(AT_FDCWD, "/etc/rpm/macros.dist", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/etc/rpm/macros", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/rpm/x86_64-linux/macros", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  stat("/root/.rpmmacros", 0x7ffcdb8f0e00) = -1 ENOENT (No such file or directory)
+5342  stat("/usr/lib/rpm/init.lua", 0x7ffcdb8f1170) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm", O_RDONLY) = 6
+5342  openat(AT_FDCWD, "/var/lib/rpm/pubkeys", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+5342  stat("/var", {st_mode=S_IFDIR|0755, st_size=278, ...}) = 0
+5342  stat("/var/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/var/lib/rpm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  access("/var/lib/rpm/rpmdb.sqlite", F_OK) = -1 ENOENT (No such file or directory)
+5342  access("/var/lib/rpm/Packages", F_OK) = 0
+5342  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 7
+5342  openat(AT_FDCWD, "/var/lib/rpm/.dbenv.lock", O_RDWR|O_CREAT, 0644) = 7
+5342  openat(AT_FDCWD, "/var/lib/rpm/DB_CONFIG", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR|O_CREAT|O_EXCL, 0644) = -1 EEXIST (File exists)
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR) = 8
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR) = 9
+5342  stat("/lib64/libpthread.so.0", {st_mode=S_IFREG|0755, st_size=321552, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.002", O_RDWR|O_CREAT, 0644) = 10
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.003", O_RDWR|O_CREAT, 0644) = 11
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Packages", O_RDONLY) = 7
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Packages", O_RDONLY) = 7
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Name", O_RDONLY) = 12
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Name", O_RDONLY) = 12
+5342  openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/rpm.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/usr/lib64/rpm-plugins", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+5342  openat(AT_FDCWD, "/usr/lib64/rpm-plugins/selinux.so", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 6
+5342  statfs("/sys/fs/selinux", {f_type=SELINUX_MAGIC, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+5342  statfs("/sys/fs/selinux", {f_type=SELINUX_MAGIC, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+5342  access("/etc/selinux/config", F_OK) = 0
+5342  openat(AT_FDCWD, "/usr/lib64/rpm-plugins/systemd_inhibit.so", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/liblz4.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libmount.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 6
+5342  openat(AT_FDCWD, "/lib64/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 6
+5342  access("/etc/system-fips", F_OK)  = -1 ENOENT (No such file or directory)
+5342  access("/etc/gcrypt/fips_enabled", F_OK) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/proc/sys/crypto/fips_enabled", O_RDONLY) = 6
+5342  lstat("/run/systemd/system/", {st_mode=S_IFDIR|0755, st_size=40, ...}) = 0
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Conflictname", O_RDONLY) = 6
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Conflictname", O_RDONLY) = 6
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Requirename", O_RDONLY) = 13
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Requirename", O_RDONLY) = 13
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Basenames", O_RDONLY) = 14
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Basenames", O_RDONLY) = 14
+5342  stat("/bin/", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  stat("/usr/bin/", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  stat("/usr/share/bash-completion/completions/", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+5342  stat("/var/lib/rpm/Sha1header", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sha1header", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Sigmd5", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sigmd5", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Installtid", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Installtid", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Providename", {st_mode=S_IFREG|0644, st_size=2367488, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Providename", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Group", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Group", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Dirnames", {st_mode=S_IFREG|0644, st_size=1622016, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Dirnames", O_RDWR) = 15
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/arch/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/drivers/dma/", {st_mode=S_IFDIR|0755, st_size=204, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/drivers/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/include/config/ip/vs/", {st_mode=S_IFDIR|0755, st_size=266, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/scripts/dtc/include-prefixes/", {st_mode=S_IFDIR|0755, st_size=182, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/sound/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/sound/soc/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/usr/src/kernels/4.18.0-348.7.1.el8_5.x86_64/tools/perf/arch/", {st_mode=S_IFDIR|0755, st_size=117, ...}) = 0
+5342  stat("/usr/bin/", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  stat("/usr/share/doc/", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+5342  stat("/usr/share/licenses/", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Obsoletename", O_RDONLY) = 15
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Obsoletename", O_RDONLY) = 15
+5342  stat("/var", {st_mode=S_IFDIR|0755, st_size=278, ...}) = 0
+5342  stat("/var/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/var/lib/rpm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/.rpm.lock", O_RDWR|O_CREAT, 0644) = 16
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Requirename", O_RDWR) = 6
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Name", O_RDWR) = 6
+5342  openat(AT_FDCWD, "/var/lib/rpm/.dbenv.lock", O_RDWR|O_CREAT, 0644) = 6
+5342  stat("/var", {st_mode=S_IFDIR|0755, st_size=278, ...}) = 0
+5342  stat("/var/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  stat("/var/lib/rpm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  access("/var/lib/rpm/rpmdb.sqlite", F_OK) = -1 ENOENT (No such file or directory)
+5342  access("/var/lib/rpm/Packages", F_OK) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/.dbenv.lock", O_RDWR|O_CREAT, 0644) = 6
+5342  openat(AT_FDCWD, "/var/lib/rpm/DB_CONFIG", O_RDONLY) = -1 ENOENT (No such file or directory)
+5342  stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR|O_CREAT|O_EXCL, 0644) = -1 EEXIST (File exists)
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR) = 7
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.001", O_RDWR) = 8
+5342  stat("/lib64/libpthread.so.0", {st_mode=S_IFREG|0755, st_size=321552, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.002", O_RDWR|O_CREAT, 0644) = 9
+5342  openat(AT_FDCWD, "/var/lib/rpm/__db.003", O_RDWR|O_CREAT, 0644) = 10
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Packages", O_RDWR) = 6
+5342  stat("/var/lib/rpm/Packages", {st_mode=S_IFREG|0644, st_size=89255936, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Packages", O_RDWR) = 6
+5342  openat(AT_FDCWD, ".", O_RDONLY)   = 11
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Name", O_RDWR) = 12
+5342  stat("/var/lib/rpm/Name", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Name", O_RDWR) = 12
+5342  openat(AT_FDCWD, "/home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm", O_RDONLY) = 13
+5342  openat(AT_FDCWD, "/etc/selinux/config", O_RDONLY|O_CLOEXEC) = 13
+5342  openat(AT_FDCWD, "/sys/fs/selinux/status", O_RDONLY|O_CLOEXEC) = 13
+5342  openat(AT_FDCWD, "/etc/selinux/targeted/contexts/files/file_contexts.subs_dist", O_RDONLY|O_CLOEXEC) = 14
+5342  openat(AT_FDCWD, "/etc/selinux/targeted/contexts/files/file_contexts.subs", O_RDONLY|O_CLOEXEC) = 14
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts", {st_mode=S_IFREG|0644, st_size=397299, ...}) = 0
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts.bin", 0x7ffcdb8eeb20) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/selinux/targeted/contexts/files/file_contexts", O_RDONLY|O_CLOEXEC) = 14
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts.homedirs", {st_mode=S_IFREG|0644, st_size=13835, ...}) = 0
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts.homedirs.bin", 0x7ffcdb8eeb20) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/selinux/targeted/contexts/files/file_contexts.homedirs", O_RDONLY|O_CLOEXEC) = 14
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts.local", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+5342  stat("/etc/selinux/targeted/contexts/files/file_contexts.local.bin", 0x7ffcdb8eeb20) = -1 ENOENT (No such file or directory)
+5342  openat(AT_FDCWD, "/etc/selinux/targeted/contexts/files/file_contexts.local", O_RDONLY|O_CLOEXEC) = 14
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Basenames", O_RDWR) = 14
+5342  stat("/var/lib/rpm/Basenames", {st_mode=S_IFREG|0644, st_size=2887680, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Basenames", O_RDWR) = 14
+5342  stat("/var/lib/rpm/Group", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  stat("/var/lib/rpm/Group", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Group", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Group", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Group", O_RDWR) = 15
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Requirename", O_RDWR) = 18
+5342  stat("/var/lib/rpm/Requirename", {st_mode=S_IFREG|0644, st_size=163840, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Requirename", O_RDWR) = 18
+5342  stat("/var/lib/rpm/Providename", {st_mode=S_IFREG|0644, st_size=2367488, ...}) = 0
+5342  stat("/var/lib/rpm/Providename", {st_mode=S_IFREG|0644, st_size=2367488, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Providename", O_RDWR) = 19
+5342  stat("/var/lib/rpm/Providename", {st_mode=S_IFREG|0644, st_size=2367488, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Providename", O_RDWR) = 19
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Conflictname", O_RDWR) = 20
+5342  stat("/var/lib/rpm/Conflictname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Conflictname", O_RDWR) = 20
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Obsoletename", O_RDWR) = 21
+5342  stat("/var/lib/rpm/Obsoletename", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Obsoletename", O_RDWR) = 21
+5342  stat("/var/lib/rpm/Triggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Triggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Triggername", O_RDWR) = 22
+5342  stat("/var/lib/rpm/Triggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Triggername", O_RDWR) = 22
+5342  stat("/var/lib/rpm/Dirnames", {st_mode=S_IFREG|0644, st_size=1622016, ...}) = 0
+5342  stat("/var/lib/rpm/Dirnames", {st_mode=S_IFREG|0644, st_size=1622016, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Dirnames", O_RDWR) = 23
+5342  stat("/var/lib/rpm/Dirnames", {st_mode=S_IFREG|0644, st_size=1622016, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Dirnames", O_RDWR) = 23
+5342  stat("/var/lib/rpm/Installtid", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  stat("/var/lib/rpm/Installtid", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Installtid", O_RDWR) = 24
+5342  stat("/var/lib/rpm/Installtid", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Installtid", O_RDWR) = 24
+5342  stat("/var/lib/rpm/Sigmd5", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+5342  stat("/var/lib/rpm/Sigmd5", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sigmd5", O_RDWR) = 25
+5342  stat("/var/lib/rpm/Sigmd5", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sigmd5", O_RDWR) = 25
+5342  stat("/var/lib/rpm/Sha1header", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+5342  stat("/var/lib/rpm/Sha1header", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sha1header", O_RDWR) = 26
+5342  stat("/var/lib/rpm/Sha1header", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Sha1header", O_RDWR) = 26
+5342  stat("/var/lib/rpm/Filetriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Filetriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Filetriggername", O_RDWR) = 27
+5342  stat("/var/lib/rpm/Filetriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Filetriggername", O_RDWR) = 27
+5342  stat("/var/lib/rpm/Transfiletriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Transfiletriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Transfiletriggername", O_RDWR) = 28
+5342  stat("/var/lib/rpm/Transfiletriggername", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Transfiletriggername", O_RDWR) = 28
+5342  stat("/var/lib/rpm/Recommendname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Recommendname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Recommendname", O_RDWR) = 29
+5342  stat("/var/lib/rpm/Recommendname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Recommendname", O_RDWR) = 29
+5342  stat("/var/lib/rpm/Suggestname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Suggestname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Suggestname", O_RDWR) = 30
+5342  stat("/var/lib/rpm/Suggestname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Suggestname", O_RDWR) = 30
+5342  stat("/var/lib/rpm/Supplementname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Supplementname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Supplementname", O_RDWR) = 31
+5342  stat("/var/lib/rpm/Supplementname", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Supplementname", O_RDWR) = 31
+5342  stat("/var/lib/rpm/Enhancename", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  stat("/var/lib/rpm/Enhancename", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Enhancename", O_RDWR) = 32
+5342  stat("/var/lib/rpm/Enhancename", {st_mode=S_IFREG|0644, st_size=8192, ...}) = 0
+5342  openat(AT_FDCWD, "/var/lib/rpm/Enhancename", O_RDWR) = 32
+5342  stat("/usr/bin/", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  stat("/var/lib/rpm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5342  statfs("/usr/bin/", {f_type=XFS_SB_MAGIC, f_bsize=4096, f_blocks=32742656, f_bfree=32033719, f_bavail=32033719, f_files=65503232, f_ffree=65437178, f_fsid={val=[64768, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+5342  stat("/usr/bin/", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  lstat("/usr", {st_mode=S_IFDIR|0755, st_size=144, ...}) = 0
+5342  lstat("/usr/bin", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  stat("/usr", {st_mode=S_IFDIR|0755, st_size=144, ...}) = 0
+5342  stat("/", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+5342  openat(AT_FDCWD, "/home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm", O_RDONLY) = 33
+5342  stat("/var", {st_mode=S_IFDIR|0755, st_size=278, ...}) = 0
+5342  stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+5342  openat(AT_FDCWD, "/var/tmp/rpm-tmp.XKe3H9", O_RDWR|O_CREAT|O_EXCL, 0600) = 34
+5343  openat(AT_FDCWD, "/proc/thread-self/attr/current", O_RDONLY|O_CLOEXEC) = 35
+5343  access("/var/run/setrans/.setrans-unix", F_OK) = -1 ENOENT (No such file or directory)
+5343  getxattr("/bin/sh", "security.selinux", "system_u:object_r:shell_exec_t:s"..., 255) = 34
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/index", O_RDONLY|O_CLOEXEC) = 35
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 35
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/.", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/..", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getrlimit", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setsockcreate", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setkeycreate", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execheap", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execstack", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execmem", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setcurrent", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/dyntransition", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/rlimitinh", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setrlimit", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/siginh", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/noatsecure", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setfscreate", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setexec", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getattr", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/share", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setcap", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getcap", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setpgid", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getpgid", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getsession", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setsched", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getsched", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/ptrace", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/signal", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/signull", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigstop", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigkill", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigchld", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/transition", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/fork", O_RDONLY|O_CLOEXEC) = 37
+5343  openat(AT_FDCWD, "/sys/fs/selinux/create", O_RDWR|O_CLOEXEC) = 35
+5343  openat(AT_FDCWD, "/proc/thread-self/attr/exec", O_RDWR|O_CLOEXEC) = 35
+5343  openat(AT_FDCWD, "/proc/self/fd", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 35
+5343  chdir("/")                        = 0
+5343  execve("/bin/sh", ["/bin/sh", "/var/tmp/rpm-tmp.XKe3H9", "1"], 0x7ffcdb8f1448 /* 15 vars */) = 0
+5343  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5343  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+5343  getcwd("/", 4096)                 = 2
+5343  openat(AT_FDCWD, "/var/tmp/rpm-tmp.XKe3H9", O_RDONLY) = 3
+5343  stat("/var/tmp/rpm-tmp.XKe3H9", {st_mode=S_IFREG|0600, st_size=36, ...}) = 0
+5343  +++ exited with 0 +++
+5342  unlink("/var/tmp/rpm-tmp.XKe3H9") = 0
+5342  lstat("/usr", {st_mode=S_IFDIR|0755, st_size=144, ...}) = 0
+5342  lstat("/usr/bin", {st_mode=S_IFDIR|0555, st_size=32768, ...}) = 0
+5342  openat(AT_FDCWD, "/usr/bin/my-world.sh;646f3047", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0666) = 35
+5342  chown("/usr/bin/my-world.sh;646f3047", 0, 0) = 0
+5342  chmod("/usr/bin/my-world.sh;646f3047", 0755) = 0
+5342  utimensat(AT_FDCWD, "/usr/bin/my-world.sh;646f3047", [{tv_sec=1685008454, tv_nsec=0} /* 2023-05-25T09:54:14+0000 */, {tv_sec=1685008454, tv_nsec=0} /* 2023-05-25T09:54:14+0000 */], AT_SYMLINK_NOFOLLOW) = 0
+5342  access("/var/run/setrans/.setrans-unix", F_OK) = -1 ENOENT (No such file or directory)
+5342  lsetxattr("/usr/bin/my-world.sh;646f3047", "security.selinux", "system_u:object_r:bin_t:s0", 27, 0) = 0
+5342  lstat("/usr/bin/my-world.sh", 0x7ffcdb8f0980) = -1 ENOENT (No such file or directory)
+5342  rename("/usr/bin/my-world.sh;646f3047", "/usr/bin/my-world.sh") = 0
+5342  openat(AT_FDCWD, "/var/tmp/rpm-tmp.qc6oTa", O_RDWR|O_CREAT|O_EXCL, 0600) = 34
+5344  openat(AT_FDCWD, "/proc/thread-self/attr/current", O_RDONLY|O_CLOEXEC) = 35
+5344  getxattr("/bin/sh", "security.selinux", "system_u:object_r:shell_exec_t:s"..., 255) = 34
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/index", O_RDONLY|O_CLOEXEC) = 35
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 35
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/.", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/..", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getrlimit", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setsockcreate", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setkeycreate", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execheap", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execstack", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/execmem", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setcurrent", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/dyntransition", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/rlimitinh", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setrlimit", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/siginh", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/noatsecure", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setfscreate", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setexec", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getattr", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/share", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setcap", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getcap", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setpgid", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getpgid", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getsession", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/setsched", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/getsched", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/ptrace", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/signal", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/signull", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigstop", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigkill", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/sigchld", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/transition", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/class/process/perms/fork", O_RDONLY|O_CLOEXEC) = 37
+5344  openat(AT_FDCWD, "/sys/fs/selinux/create", O_RDWR|O_CLOEXEC) = 35
+5344  openat(AT_FDCWD, "/proc/thread-self/attr/exec", O_RDWR|O_CLOEXEC) = 35
+5344  openat(AT_FDCWD, "/proc/self/fd", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 35
+5344  chdir("/")                        = 0
+5344  execve("/bin/sh", ["/bin/sh", "/var/tmp/rpm-tmp.qc6oTa", "1"], 0x7ffcdb8f1448 /* 15 vars */) = 0
+5344  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+5344  openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+5344  getcwd("/", 4096)                 = 2
+5344  openat(AT_FDCWD, "/var/tmp/rpm-tmp.qc6oTa", O_RDONLY) = 3
+5344  stat("/var/tmp/rpm-tmp.qc6oTa", {st_mode=S_IFREG|0600, st_size=37, ...}) = 0
+5344  +++ exited with 0 +++
+5342  unlink("/var/tmp/rpm-tmp.qc6oTa") = 0
+5342  readlink("/proc/self/exe", "/usr/bin/rpm", 4096) = 12
+5342  readlink("/proc/self/fd/0", "/dev/pts/1", 31) = 10
+5342  stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+5342  lstat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+5342  openat(AT_FDCWD, "/proc/self/comm", O_RDONLY) = 17
+5342  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5343, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+5342  openat(AT_FDCWD, "/var/lib/rpm/.dbenv.lock", O_RDWR|O_CREAT, 0644) = 6
+5342  +++ exited with 0 +++
