@@ -1,6 +1,6 @@
-# my-world
+# RPM package development playground
 
-Aka "hello-world". RRM package development playground.
+RRM package development playground for `my-world` package.
 
 See:
 
