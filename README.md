@@ -13,5 +13,5 @@ Prerequisites: vagrant, virtualbox, make
 Use `make` to run common project tasks. Monitor `logs/` directory for new logs after running `make build`.
 
 - `make up` - create and start vm with vagrant
-- `make build` - build rpm inside vm with make
+- `make build` - build rpm inside vm placing logs in `logs/`
 - `make down` - remove vm
