@@ -1,0 +1,38 @@
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ echo 'Hello from %prep'
++ exit 0
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ echo 'Hello from %build'
++ cat
++ exit 0
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ '[' /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64 '!=' / ']'
++ rm -rf /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64
+++ dirname /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64
++ mkdir -p /home/vagrant/rpmbuild/BUILDROOT
++ mkdir /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64
++ echo 'Hello from %install'
++ mkdir -p /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64/usr/bin/
++ install -m 755 my-world.sh /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64/usr/bin/my-world.sh
++ '[' '%{buildarch}' = noarch ']'
++ QA_CHECK_RPATHS=1
++ case "${QA_CHECK_RPATHS:-}" in
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
+/sbin/ldconfig: Warning: ignoring configuration file that cannot be opened: /etc/ld.so.conf: No such file or directory
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/brp-python-bytecompile '' 1
++ /usr/lib/rpm/brp-python-hardlink
++ PYTHON3=/usr/libexec/platform-python
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ /usr/bin/rm -rf /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64
++ exit 0
