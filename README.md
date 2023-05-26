@@ -1,6 +1,6 @@
 # RPM package development playground
 
-RRM package development playground for `my-world` package.
+RRM package development playground for `my-world` package with vagrant, centos8, make.
 
 See:
 
@@ -19,11 +19,13 @@ Use `make` to run common project tasks. Monitor `logs/` directory for new logs a
 
 **Full lifecycle in a single command:**
 
+Full test lifecycle command example: clean -> up -> build -> down.
+
 ```bash
 % make clean up build down && ls -l logs
 
-Removing all files in logs/ directory
-Bringing vagrant vm up
+(rpmdev) Removing all files in logs/ directory
+(rpmdev) Bringing vagrant vm up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'generic/centos8'...
 ==> default: Matching MAC address for NAT networking...
@@ -38,16 +40,17 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Booting VM...
 ==> default: Waiting for machine to boot. This may take a few minutes...
 ...
-Running make all command inside vm
-:: Initializing rpmdev working directories
-:: Uninstalling rpm package
-:: Building rpm package for my-world
-:: Installing rpm package with strace rpm -i
-:: Filtering strace events /home/vagrant/logs/1685095113.rpmi-strace
-:: Uninstalling rpm package
-:: Installing rpm package with rpm -i --debug
-:: Uninstalling rpm package
-Destroyin vagrant vm
+(rpmdev) Running make all command inside vm
+(my-world-1-1) Initializing rpmdev working directories
+(my-world-1-1) Uninstalling rpm package
+(my-world-1-1) Building rpm package for my-world
+(my-world-1-1) Installing rpm package with strace rpm -i
+(my-world-1-1) Filtering strace events /home/vagrant/logs/1685105272.rpmi-strace
+(my-world-1-1) Uninstalling rpm package
+(my-world-1-1) Installing rpm package with rpm -i --debug
+(my-world-1-1) Executing my-world.sh
+Hello from my-world-1-1!
+(rpmdev) Destroying vagrant vm
 ==> default: Forcing shutdown of VM...
 ==> default: Destroying VM and associated drives...
 -rw-r--r--@  1   1498 May 26 11:58 1685095113.rpm-build-stderr

@@ -1,8 +1,8 @@
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.RKBfpX
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.D6IBsQ
 Hello from %prep
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.aWUVGX
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.bY98VS
 Hello from %build
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.ODPUTY
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.FEKK1S
 Hello from %install
 Processing files: my-world-1-1.x86_64
 Provides: my-world = 1-1 my-world(x86-64) = 1-1
@@ -14,4 +14,4 @@ Requires: /usr/bin/bash
 Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/vagrant/rpmbuild/BUILDROOT/my-world-1-1.x86_64
 Wrote: /home/vagrant/rpmbuild/SRPMS/my-world-1-1.src.rpm
 Wrote: /home/vagrant/rpmbuild/RPMS/x86_64/my-world-1-1.x86_64.rpm
-Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.kgg1n0
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.9o4FhQ

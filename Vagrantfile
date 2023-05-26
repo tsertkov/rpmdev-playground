@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     vb.cpus = 2
   end
 
-  config.vm.synced_folder "my-world/", "/home/vagrant/my-world"
+  config.vm.synced_folder "my-package/", "/home/vagrant/my-package"
   config.vm.synced_folder "logs/", "/home/vagrant/logs"
 
   config.vm.provision "shell", inline: <<-SHELL

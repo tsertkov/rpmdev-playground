@@ -1,0 +1,7 @@
+Verifying packages...
+Preparing packages...
+Executing my-world.sh from %pre scriptlet : /var/tmp/rpm-tmp.UMathC
+my-world.sh is not yet installed
+my-world-1-1.x86_64
+Executing my-world.sh from %post scriptlet : /var/tmp/rpm-tmp.oeGYEy
+Hello from my-world-1-1!

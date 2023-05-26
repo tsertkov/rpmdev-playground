@@ -1,0 +1,4 @@
+Executing my-world.sh from %pre scriptlet : /var/tmp/rpm-tmp.6IYqH4
+my-world.sh is not yet installed
+Executing my-world.sh from %post scriptlet : /var/tmp/rpm-tmp.tEv7S3
+Hello from my-world-1-1!
