@@ -21,7 +21,7 @@ echo "Hello from %%prep"
 %build
 echo "Hello from %%build"
 cat > ${NAME}.sh <<EOF
-#!/usr/bin/bash
+#!/usr/bin/env bash
 echo Hello from ${NAME}-${VERSION}-${RELEASE}! 
 EOF
 
