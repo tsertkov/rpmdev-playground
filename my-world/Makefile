@@ -1,5 +1,6 @@
 PKG_NAME=my-world
-PKG_VERSION=1-1
+PKG_VERSION=1
+PKG_RELEASE=1
 PKG_ARCH=x86_64
 
 HOME_DIR:=/home/vagrant
@@ -7,7 +8,7 @@ LOGS_DIR:=$(HOME_DIR)/logs
 STRACE_EXCLUDE:=/usr/lib/locale/|/usr/share/locale/|/sys/fs/selinux/
 TIMESTAMP?=$(shell date +'%s')
 LOG_PREFIX?=$(LOGS_DIR)/$(TIMESTAMP)
-PKG_FILE?=$(HOME_DIR)/rpmbuild/RPMS/$(PKG_ARCH)/$(PKG_NAME)-$(PKG_VERSION).$(PKG_ARCH).rpm
+PKG_FILE?=$(HOME_DIR)/rpmbuild/RPMS/$(PKG_ARCH)/$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).$(PKG_ARCH).rpm
 
 .PHONY: *
 all: init
