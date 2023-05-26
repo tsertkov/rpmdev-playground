@@ -8,3 +8,6 @@ build:
 down:
 	$(info Destroyin vagrant vm)
 	@vagrant destroy -f
+clean:
+	$(info Removing all files in logs/ directory)
+	@rm -rf ./logs/*
