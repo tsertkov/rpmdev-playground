@@ -61,3 +61,7 @@ Hello from my-world-1-1!
 -rw-r--r--@  1    103 May 26 11:58 1685095113.rpmi-stdout
 -rw-------@  1  30749 May 26 11:58 1685095113.rpmi-strace
 ```
+
+## Recorded demo
+
+![termtosvg_lax9ewax](https://github.com/tsertkov/rpmdev-playground/assets/5339042/0794aa65-7bc0-46f3-b061-34fff891a04c)
