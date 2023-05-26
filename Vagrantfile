@@ -14,8 +14,8 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "logs/", "/home/vagrant/logs"
 
   config.vm.provision "shell", inline: <<-SHELL
-    yum -y update
-    yum install -y gcc rpm-build rpm-devel \
+    dnf -y update
+    dnf install -y gcc rpm-build rpm-devel \
       rpmlint make bash coreutils diffutils patch rpmdevtools \
       strace
   SHELL
