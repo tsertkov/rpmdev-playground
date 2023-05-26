@@ -25,6 +25,9 @@ init:
 
 build:
 	$(info :: Building rpm package for $(PKG_NAME))
+	@VERSION="$(PKG_VERSION)" RELEASE="$(PKG_RELEASE)" envsubst \
+		< $(PKG_NAME).spec.tpl \
+		> $(PKG_NAME).spec
 	@rpmbuild -ba $(PKG_NAME).spec \
 		> "$(LOG_PREFIX).rpm-build-stdout" \
 		2> "$(LOG_PREFIX).rpm-build-stderr"

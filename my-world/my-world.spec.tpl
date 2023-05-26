@@ -1,6 +1,6 @@
 Name:       my-world
-Version:    1
-Release:    1
+Version:    ${VERSION}
+Release:    ${RELEASE}
 Summary:    Most simple RPM package
 License:    FIXME
 
