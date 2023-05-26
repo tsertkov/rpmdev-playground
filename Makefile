@@ -1,7 +1,9 @@
 .PHONY: *
 up:
-	vagrant up
+	$(info Bringing vagrant vm up)
+	@vagrant up
 build:
-	vagrant ssh -c 'cd my-world && make all'
+	$(info Running make all command inside vm)
+	@vagrant ssh -c 'cd my-world && make all'
 down:
 	vagrant destroy
